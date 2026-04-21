@@ -1,0 +1,76 @@
+{
+  "id": "st_psary",
+  "name": "Psary",
+  "trackSegments": [
+    {
+      "id": "t_1",
+      "name": "Tor 1",
+      "length": 1500.0,
+      "isElectrified": true
+    },
+    {
+      "id": "t_2",
+      "name": "Tor 2",
+      "length": 1500.0,
+      "isElectrified": true
+    },
+    {
+      "id": "t_3",
+      "name": "Tor 3",
+      "length": 800.0,
+      "isElectrified": true
+    },
+    {
+      "id": "t_4",
+      "name": "Tor 4",
+      "length": 800.0,
+      "isElectrified": true
+    }
+  ],
+  "switches": [
+    {
+      "id": "sw_1",
+      "name": "Rozjazd 1",
+      "type": "rozjazd_zwyczajny",
+      "defaultPosition": "plus",
+      "currentPosition": "plus"
+    },
+    {
+      "id": "sw_2",
+      "name": "Rozjazd 2",
+      "type": "rozjazd_zwyczajny",
+      "defaultPosition": "plus",
+      "currentPosition": "plus"
+    }
+  ],
+  "signals": [
+    {
+      "id": "sig_A",
+      "name": "Semafor A",
+      "type": "semafor_wjazdowy",
+      "state": "S1",
+      "isVirtual": false
+    },
+    {
+      "id": "sig_B",
+      "name": "Semafor B",
+      "type": "semafor_wjazdowy",
+      "state": "S1",
+      "isVirtual": false
+    },
+    {
+      "id": "sig_C",
+      "name": "Semafor C",
+      "type": "semafor_wyjazdowy",
+      "state": "S1",
+      "isVirtual": false
+    },
+    {
+      "id": "sig_D",
+      "name": "Semafor D",
+      "type": "semafor_wyjazdowy",
+      "state": "S1",
+      "isVirtual": false
+    }
+  ]
+}
