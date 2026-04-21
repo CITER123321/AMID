@@ -1,0 +1,7 @@
+[Bb]in/
+[Oo]bj/
+tests/**/bin/
+tests/**/obj/
+tests/**/TestResults/
+**/bin/
+**/obj/
